@@ -87,7 +87,6 @@ Now, we have a third option. Create a document called `--stats--` for the purpos
 
 
 {{< highlight javascript >}}
-const storyRef = db.collection('stories').doc('hello-world');
 const statsRef = db.collection('stories').doc('--stats--');
 
 const increment = firebase.firestore.FieldValue.increment(1);
